@@ -10,7 +10,7 @@ def show_home_page():
 
     st.title("Home Page")
     image = Image.open("Image.jpg")
-    st.image(image, width = 700 )
+    st.image(image )
     expander_bar = st.beta_expander("About")
     expander_bar.markdown("""
     * **Student Name:** Fasial Khalid Al-Suwaidi
