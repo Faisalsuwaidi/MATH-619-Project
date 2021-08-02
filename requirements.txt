@@ -4,14 +4,9 @@ beautifulsoup4==4.9.3
 matplotlib==3.3.4
 plotly==4.12.0
 requests==2.25.1
-scikit-image==0.16.2
-scikit-learn==0.24.2
-scikit-surprise==1.1.1
 scrapy==2.5.0
 seaborn==0.11.1
 simplified-scrapy==1.5.163
-sklearn==0.0
-statsmodels==0.12.2
 streamlit==0.83.0
 yfinance==0.1.63
 json5==0.9.6
