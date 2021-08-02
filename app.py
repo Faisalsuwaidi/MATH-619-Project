@@ -5,11 +5,10 @@ from Blockchain_Data_EDA import show_Blockchain_Data_EDA
 from Market_Commodity_Data_EDA import show_Market_Commodity_Data_EDA
 from Social_Data_EDA import show_Social_Data_EDA
 from Time_Series_Model import show_Time_Series_Model
-from Deep_Learning_Model import show_Deep_Learning_Model
 
 st.sidebar.title("User Inputs")
 
-page = st.sidebar.selectbox("Select Application Page", ("Home Page" , "Market Price & Return EDA" ,"Blockchain Data EDA" , "Market & Commodity Data EDA" , "Social Data EDA" ,"Time Series Model" , "Deep Learning Model"))
+page = st.sidebar.selectbox("Select Application Page", ("Home Page" , "Market Price & Return EDA" ,"Blockchain Data EDA" , "Market & Commodity Data EDA" , "Social Data EDA" ,"Time Series Model"))
 
 if page == "Time Series Model":
      show_Time_Series_Model()
@@ -21,8 +20,6 @@ elif page == "Market & Commodity Data EDA":
      show_Market_Commodity_Data_EDA()    
 elif page == "Social Data EDA": 
      show_Social_Data_EDA()    
-elif page == "Deep Learning Model": 
-     show_Deep_Learning_Model()   
 else:
     show_home_page()
     
